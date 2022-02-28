@@ -5,12 +5,11 @@
 }
 
 header {
-  width: 100%;
   margin: 30px auto 100px;
   align-items: center;
   font-weight: bold;
   color: #00277e;
-  font-size: 24px;
+  font-size: 26px;
   display: flex;
 }
 
@@ -25,7 +24,7 @@ header {
 }
 
 nav ul {
-  font-size: 15px;
+  font-size: 16px;
   text-align: center;
   display: flex;
 }
@@ -38,17 +37,13 @@ nav ul li a {
 
 .parent {
   padding: 30px 0;
-  margin-top: 0px;
   position: relative;
-  z-index: -20;
 }
 
 .ttl{
   font-size: 5vw;
   position: absolute;
   top: 58%;
-  z-index: 0;
-  margin-bottom: 10px;
 }
 
 .box{
@@ -63,5 +58,4 @@ nav ul li a {
 .photo{
   width: 50%;
   margin: 0 0 0 auto;
-  display: block;
 }
